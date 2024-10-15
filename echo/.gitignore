@@ -1,1 +1,24 @@
+/build/
+bin/
+obj/
+*.o
+*.exe
 
+*.log
+
+*.tmp
+*.temp
+
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+.idea/
+*.swp
+
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+*.DS_Store
+Thumbs.db
