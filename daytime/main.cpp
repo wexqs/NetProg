@@ -19,7 +19,7 @@ int main()
     }
     struct sockaddr_in s_addr;
     s_addr.sin_family = AF_INET;
-    s_addr.sin_port = htons(44214);
+    s_addr.sin_port = htons(13);
     inet_aton("172.16.40.1", &s_addr.sin_addr);
     socklen_t s_addr_len = sizeof(s_addr);
     char buffer[100];
