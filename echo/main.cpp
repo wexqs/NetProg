@@ -17,7 +17,7 @@ int main() // TCP
         return 1;
     }
 
-    int port = 44214;
+    int port = 7;
     string ipAddress = "172.16.40.1";
     sockaddr_in hint;
     hint.sin_family = AF_INET;
